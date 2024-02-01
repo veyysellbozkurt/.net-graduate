@@ -1,0 +1,39 @@
+﻿@using LoginSolo.Dtos;
+@model LoginDto
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/styl.css">
+
+</head>
+
+<body>
+
+	<div class="content">
+		<div class="text">
+			Login Form
+		</div>
+		<form method="post">
+			<div class="field">
+				<input class="form-input" type="text" asp-for="Username" placeholder="Your Username" required=""> <span
+					class="fas fa-user"></span>
+			</div>
+			<div class="field">
+				<input class="form-input" type="password" asp-for="Password" placeholder="Your Password" required="">
+				<span class="fas fa-lock"></span>
+			</div>
+
+			<button type="submit" class="log-in"> Login
+			</button>
+
+		</form>
+	</div>
+
+
+</body>
+
+</html>

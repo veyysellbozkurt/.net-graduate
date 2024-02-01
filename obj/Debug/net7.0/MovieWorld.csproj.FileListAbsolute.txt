@@ -1,0 +1,8 @@
+/Users/zehraturedi/Downloads/LoginSolo/MovieWorld/obj/Debug/net7.0/MovieWorld.csproj.AssemblyReference.cache
+/Users/zehraturedi/Downloads/LoginSolo/MovieWorld/obj/Debug/net7.0/MovieWorld.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zehraturedi/Downloads/LoginSolo/MovieWorld/obj/Debug/net7.0/MovieWorld.AssemblyInfoInputs.cache
+/Users/zehraturedi/Downloads/LoginSolo/MovieWorld/obj/Debug/net7.0/MovieWorld.AssemblyInfo.cs
+/Users/zehraturedi/Downloads/LoginSolo/MovieWorld/obj/Debug/net7.0/MovieWorld.csproj.CoreCompileInputs.cache
+/Users/zehraturedi/Downloads/LoginSolo/MovieWorld/obj/Debug/net7.0/MovieWorld.MvcApplicationPartsAssemblyInfo.cache
+/Users/zehraturedi/Downloads/LoginSolo/MovieWorld/obj/Debug/net7.0/MovieWorld.RazorAssemblyInfo.cache
+/Users/zehraturedi/Downloads/LoginSolo/MovieWorld/obj/Debug/net7.0/MovieWorld.RazorAssemblyInfo.cs

@@ -1,0 +1,25 @@
+@model LoginSolo.Models.Movie
+
+@{
+  ViewData["Title"] = "Movie Detail";
+}
+<style>
+  .card {
+
+    max-width: 100%;
+  }
+
+  .card-img-top {
+    max-width: 300px;
+    height: auto;
+  }
+</style>
+
+<h1>@Model.Title</h1>
+
+<div class="card">
+  <div class="card-body">
+    <img class="card-img-top" src="https://image.tmdb.org/t/p/w500/@Model.PosterPath" alt="Movie Poster">
+    <p class="card-text">@Model.Overview</p>
+  </div>
+</div>

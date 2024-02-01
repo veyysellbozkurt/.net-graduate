@@ -1,0 +1,42 @@
+﻿@using LoginSolo.Dtos;
+@model AppUserRegisterDto
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/styl.css">
+
+</head>
+
+<body>
+
+	<div class="content">
+		<div class="text">
+			Register Form
+		</div>
+		<form method="post">
+			<div class="field">
+				<input class="form-input" type="text" asp-for="Name" placeholder="Your Username" required="">
+
+			</div>
+			<div class="field">
+				<input class="form-input" type="text" asp-for="Email" placeholder="Your E-mailaddress" required="">
+
+			</div>
+			<br>
+			<div class="field">
+				<input class="form-input" type="password" asp-for="Password" placeholder="Your Password" required="">
+			</div>
+
+			<button type="submit" class="sign-up"> Sign Up
+			</button>
+
+		</form>
+	</div>
+
+</body>
+
+</html>

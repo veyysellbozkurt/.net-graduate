@@ -1,0 +1,17 @@
+@model LoginSolo.Models.Movie
+
+@{
+  ViewData["Title"] = "Movie Detail";
+}
+
+<h1>@Model.Title</h1>
+
+<div class="card">
+  <div class="card-body">
+    <img class="card-img-top" src="@Model.PosterPath" alt="Movie Poster">
+    <h5 class="card-title">@Model.Title</h5>
+    <p class="card-text">@Model.Overview</p>
+    <p class="card-text">@Model.ReleaseDate</p>
+
+  </div>
+</div>
